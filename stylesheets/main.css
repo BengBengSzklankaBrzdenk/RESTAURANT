@@ -14,7 +14,7 @@ body {
 
 .main{
   height: 86vh;
-  width: 90%;
+  width: 1400px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -70,16 +70,18 @@ li{
 .left{
   height: 100%;
   width: 35%;
-  background-color: pink;
+  background-color: white;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-sizing: border-box;
+  padding: 30px;
 }
 
 .text{
 text-align: center;
-font-size: 24px;
+font-size: 50px;
 font-weight: bold;
 color: black;
 }
@@ -88,18 +90,20 @@ color: black;
 text-align: center;
 font-size: 16px;
 color: #595959;
+font-weight: bold;
 }
 
 .text2{
 text-align: center;
 font-size: 16px;
-color: #595959;
+color: #b3b3b3;
+font-weight: lighter;
 }
 
 .right{
   height: 100%;
   width: 65%;
-  background-color: yellow;
+  background: url("art/avocado-piada.png") no-repeat;
   align-items: center;
   display: flex;
 }
